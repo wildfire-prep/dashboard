@@ -28,6 +28,4 @@ training_geometries_2019 <- read_sf(here(
 
 # CRS = California Albers (EPSG:3310)
 training_geometries_2019 <- st_set_crs(training_geometries_2019, 3310)
-
-# Check CRS
 st_crs(training_geometries_2019)
