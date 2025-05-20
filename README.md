@@ -1,6 +1,6 @@
 # Dashboard
 
-This repository houses code and data for an RShiny app for our project, titled: Remote Sensing of Brush Clearance to Enhance Wildfire Preparedness.
+This repository houses the files used to create an R Shiny dashboard for our project, titled: Remote Sensing of Defensible Space Compliance to Enhance Wildfire Preparedness.
 
 ## Authors
 
