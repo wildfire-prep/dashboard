@@ -1,0 +1,112 @@
+/* Main dashboard styling */
+.main-header .logo {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Sidebar styling */
+.skin-blue .main-sidebar {
+  background-color: #2c3e50;
+}
+
+.skin-blue .sidebar a {
+  color: #ecf0f1;
+}
+
+.skin-blue .sidebar-menu > li.active > a {
+  background-color: #1a2530;
+  border-left-color: #3c8dbc;
+}
+
+/* Box styling - for visualization boxes */
+.box.box-primary {
+  border-top-color: #3c8dbc;
+}
+
+.box.box-info {
+  border-top-color: #00c0ef;
+}
+
+/* Tab styling */
+.nav-tabs-custom > .nav-tabs > li.active {
+  border-top-color: #3c8dbc;
+}
+
+/* Map container styling */
+.content-wrapper {
+  overflow: hidden;
+  padding: 0 !important;
+  background-color: #f4f6f9; /* Light background */
+}
+
+/* Make the data visualization tab content have proper padding */
+.tab-content {
+  padding: 10px;
+}
+
+/* Legend styling */
+.info.legend {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.info.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.9;
+}
+
+/* Status labels styling */
+.leaflet-tooltip {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  border: none;
+  box-shadow: none;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.leaflet-tooltip-top:before {
+  border-top-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Data Table styling */
+.dataTables_wrapper {
+  padding: 10px 0;
+}
+
+.dataTable th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+/* Status colors in table */
+table.dataTable tr td:contains("Compliant") {
+  background-color: #CCFFCC !important;
+}
+
+table.dataTable tr td:contains("Non-Compliant") {
+  background-color: #FFCCCC !important;
+}
+
+/* Improve spinner appearance */
+.spinner-container {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* Responsive design improvements */
+@media (max-width: 768px) {
+  .box {
+    margin-bottom: 10px;
+  }
+  
+  .main-header .logo {
+    font-size: 16px;
+  }
+}
